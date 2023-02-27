@@ -15,7 +15,7 @@ public class Examples {
 //            }
 //        };
 //
-//        lesserThan.test(50);
+//        System.out.println(lesserThan.test(50));
 
         Predicate<Integer> lesserThan = b -> b<18; //Implementation of test method that belongs to Predicate interface
         Boolean result = lesserThan.test(50);

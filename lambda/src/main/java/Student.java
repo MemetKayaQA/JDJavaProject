@@ -1,7 +1,7 @@
 import lombok.*;
 
 import java.util.Objects;
-
+//@Builder
 //@NoArgsConstructor
 @AllArgsConstructor
 @Data
@@ -18,7 +18,7 @@ public class Student {
     private String email;
     private String password;
     private String confirmPassword;
-//    private final int age;
+   // private final int age;
 
 
 }
